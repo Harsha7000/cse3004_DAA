@@ -48,7 +48,7 @@ public class Prim
         minimumSpanningTree(mstArray, graphArray);   
     }   
  public static void main(String[] args) {
-     Main t = new Main();
+     Prim t = new Prim();
   int graph[][] = new int[][] { { 0, 2, 0, 6, 0 },
                                       { 2, 0, 3, 8, 5 },
                                       { 0, 3, 0, 0, 7 },
